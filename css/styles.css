@@ -56,7 +56,8 @@ body {
 }
 
 .header {
-
+    background: var(--banner-title-color);
+    border-bottom: 1px solid var(--footer-text-color);
 }
 
 .container {
