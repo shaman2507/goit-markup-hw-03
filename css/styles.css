@@ -62,18 +62,16 @@ body {
 
 .container {
     width: 1158px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 4px;
-    display: flex;
-    align-self: stretch;
-    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+
 }
 
 .header-container {
     display: flex;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -90,11 +88,9 @@ body {
     color: var(--main-title-color);
     text-decoration: none;
     text-transform: uppercase;
-    position: absolute;
-    width: 115px;
     padding: 0px;
     display: flex;
-    margin-left: 156px;
+   
 }
 
 .accent {
@@ -105,9 +101,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-left: 347px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-left: 76px;
 }
 
 .header-item {
@@ -134,15 +128,13 @@ body {
     font-size: var(--font-size);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
-    word-spacing: normal;
     margin-left: auto;
-    margin-right: 156px;
+
+
 }
 
 .header-address-list {
     display: flex;
-    position: absolute;
-    margin-top: 24px;
     gap: 40px;
     
 }
@@ -170,13 +162,12 @@ body {
 .banner {
     background: var(--banner-background-color);
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .wrapper {
-    width: 1158px;
-    height: 672px;
-    flex-direction: column;
-    margin: auto;
+    
 }
 
 .banner-title {
@@ -184,8 +175,8 @@ body {
     line-height: 1.07;
     color: var(--banner-title-color);
     width: 494px;
-    margin: auto;
-    padding-top: 188px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .banner-btn {
@@ -204,7 +195,7 @@ body {
     display: block;
     justify-content: center;
     margin: auto;
-    margin-bottom: 188px;
+    
 }
 
 .banner-btn:hover,
@@ -234,8 +225,8 @@ body {
 
 .container-qualities {
     display: flex;
-    margin: auto;
-    margin-top: 120px;
+    margin: 0 auto;
+    padding-top: 120px;
 }
 
 .main-title {
@@ -279,7 +270,7 @@ body {
 
 .container-title {
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     flex-direction: column;
 }
 
@@ -313,8 +304,8 @@ body {
 }
 
 .main-title-team {
-    margin-top: 120px;
-    margin-bottom: 72px;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .main-team-list {
@@ -332,8 +323,8 @@ body {
 .team-card {
     
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .footer {
@@ -342,11 +333,9 @@ body {
 }
 
 .container-footer {
-    display: block;
-    height: 310px;
-    gap: 16px;
     padding-top: 100px;
-    padding-left: 156px;
+    padding-bottom: 100px;
+    gap: 16px;
 }
 
 .footer-logo {
@@ -373,15 +362,13 @@ body {
 }
 
 .portfolio-page {
-
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .container-portfolio {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    margin-top: 96px;
+    margin-bottom: 72px;
+    
     
 }
 
@@ -389,6 +376,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .portfolio-item {
@@ -416,28 +404,25 @@ body {
 
 .container-projects {
     display: flex;
-    margin-top: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px;
+    padding: 0px;
 }
 
 .projects-list {
-    display: flex;
     list-style-type: none;
     display: flex;
-    column-gap: 24px;
+    
     gap: 24px;
     flex-wrap: wrap;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 
 .project-item {
     color: var(--banner-title-color);
     flex-direction: column;
     border: 1px solid #E7E9FC;
-    
+    display: flex;
 }
 
 .project-link {
@@ -446,9 +431,9 @@ body {
 }
 
 .projects-card {
-    margin-top: 32px;
-    margin-left: 16px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
     background-color: var(--banner-title-color);
     
 }
@@ -467,4 +452,5 @@ body {
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
     color: var(--main-text-color);
+    padding-top: 8px;
 }
