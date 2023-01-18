@@ -430,6 +430,12 @@ body {
     
 }
 
+.project-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .projects-card {
     padding-top: 32px;
     padding-left: 16px;
