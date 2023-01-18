@@ -101,7 +101,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    padding-left: 76px;
+    margin-left: 76px;
 }
 
 .header-item {
@@ -370,7 +370,7 @@ body {
 }
 
 .container-portfolio {
-    margin-bottom: 72px;
+    
     
     
 }
@@ -441,8 +441,9 @@ body {
     padding-left: 16px;
     padding-bottom: 32px;
     background-color: var(--banner-title-color);
-    border: 1px solid #E7E9FC;
-
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .projects-subtitle {
