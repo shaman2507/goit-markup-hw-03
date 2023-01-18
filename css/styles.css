@@ -163,7 +163,12 @@ body {
     background: var(--banner-background-color);
     text-align: center;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px
+}
+
+.section{
+    padding-top: 120px;
+    
 }
 
 .wrapper {
@@ -220,13 +225,13 @@ body {
     margin: -1px;
 }
 .main-qualities {
-    
+    padding-top: 120px;
 }
 
 .container-qualities {
     display: flex;
-    margin: 0 auto;
-    padding-top: 120px;
+
+    
 }
 
 .main-title {
@@ -270,13 +275,12 @@ body {
 
 .container-title {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
 }
 
 .job-title {
     justify-content: center;
-    padding-top: 120px;
+
     
 }
 
@@ -299,12 +303,11 @@ body {
 .container-main-team
 {
     display: flex;
-    margin: auto;
     flex-direction: column;
 }
 
 .main-title-team {
-    padding-top: 120px;
+
     padding-bottom: 72px;
 }
 
@@ -335,7 +338,7 @@ body {
 .container-footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    gap: 16px;
+    
 }
 
 .footer-logo {
@@ -377,6 +380,7 @@ body {
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-item {
@@ -402,26 +406,22 @@ body {
     cursor: pointer;
 }
 
-.container-projects {
-    display: flex;
-    padding: 0px;
-}
+
 
 .projects-list {
     list-style-type: none;
     display: flex;
-    
     gap: 24px;
     flex-wrap: wrap;
     margin-left: 0px;
     margin-right: 0px;
+    
     
 }
 
 .project-item {
     color: var(--banner-title-color);
     flex-direction: column;
-    border: 1px solid #E7E9FC;
     display: flex;
 }
 
@@ -435,7 +435,8 @@ body {
     padding-left: 16px;
     padding-bottom: 32px;
     background-color: var(--banner-title-color);
-    
+    border: 1px solid #E7E9FC;
+
 }
 
 .projects-subtitle {
